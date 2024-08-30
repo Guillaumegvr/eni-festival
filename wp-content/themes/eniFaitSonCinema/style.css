@@ -1,0 +1,1218 @@
+/*
+Theme Name: L'ENI fait son cinema
+Theme URI: https://
+Author: ENI Team
+Author URI: 
+Description: Theme sur mesure pour les étudiant de l’ENI
+*/
+
+/*général*/
+
+
+body {
+    background-color: #282728 !important;"
+color: #f2f2f2 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-style: normal !important;
+}
+
+#myBtn{
+    display: none;
+}
+
+footer{
+    font-weight: 800;
+    font-size: 2vh;
+    margin: 10vh;
+    color: #f2f2f2 !important;
+}
+
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.menu-liens ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.menu{
+    padding-top: 3vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    color:#f2f2f2;
+}
+
+.menu-liens li{
+ margin-left: 2vw;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5vh;
+    color:#f2f2f2;
+}
+.titre-menu a {
+   font-size: 4vh;
+    font-weight: 900;
+}
+
+header a:hover,
+.menu-liens li :hover{
+    color: #59abbe;
+    border-bottom: solid;
+}
+
+/*page accueil*/
+
+.titre-page-principale{
+    margin-top: 10vh;
+    color:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titre-page-principale h1{
+
+    white-space: nowrap;
+    font-size: 25vh;
+    font-weight: 900;
+    width: 100%;
+}
+
+.titre-page-principale h2{
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+.droit{
+    text-align: end;
+
+}
+
+.gauche{
+    text-align: start;
+
+}
+
+.lien-eni-where{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: end;
+}
+
+.lien-eni-where a{
+    text-decoration: none;
+    color:#f2f2f2;
+    font-size: 2.5vh;
+}
+
+.lien-eni-where a:hover{
+    color: #59abbe; 
+}
+
+.presentation{
+    color: #f2f2f2 !important;
+    margin-top: 27vh;
+    margin-bottom: 20vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.button-outline-white {
+    -webkit-appearance: none;
+    appearance: none;
+    text-decoration: none !important;
+    display: inline-block;
+    margin-top: 5vh;
+    background: none;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    padding: 7px 22px;
+    font-size: 2vh;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button-outline-white:hover,
+.button-outline-white:focus {
+    background-color: #f2f2f2;
+    color: #333;
+    border-color: #333;
+    text-decoration: none;
+}
+
+.button-outline-white:active {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+    color: #333;
+}
+
+section{
+    margin-top: 10vh;
+}
+
+.section-title{
+    color: #59abbe; 
+    border-bottom: solid;
+    border-width: 2px;
+    margin-bottom: 2vh;
+}
+
+.section-title h2{
+    font-size: 3vh
+}
+
+.les-salles{
+    color: #59abbe; 
+    border-top: solid; 
+    border-bottom: solid; 
+    border-width: 1px;
+    padding-top: 10vh; 
+    padding-bottom: 10vh; 
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.les-salles-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.les-salles p{
+    font-weight: 900;
+    font-size: 7vh;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.les-salles h2{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.button-outline-blue {
+    border: 2px solid #59abbe;
+    color: #59abbe;
+    background: none;
+    border-radius: 25px;
+    padding: 7px 22px;
+    font-size: 2vh;
+    text-decoration: none;
+    margin-top: 5vh;
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.button-outline-blue:hover {
+    background-color: #807f7c;
+    color: #59abbe;
+    border-color: #59abbe;
+}
+
+/*articles*/
+.article{
+    margin-top: 15vh;
+    margin-left: 7vw; 
+    margin-right: 7vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    background-color:#F8F6E9;
+    color:  #282728;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 7vw; 
+    padding-right: 7vw; 
+}
+
+.attachment-post-thumbnail{
+   width: 40vw;
+   height: 50vh;
+   object-fit: cover; 
+   border-radius: 30px;
+}
+
+.post h1{
+    padding-top : 10%;
+    font-size: 15vh;
+    font-weight: 900;
+    margin-left: 7vw; 
+    margin-right: 7vw; 
+}
+
+.entete-article{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw; 
+    margin-right: 7vw; 
+}
+
+.entete-meta{
+    width: 18vw;
+    border-top: solid;
+    border-width: 3px;
+    display: flex; 
+    flex-direction: column;
+    margin-left: 4vw;
+    padding-top: 2vh; 
+}
+
+.entete-date{
+    font-weight: bold;
+}
+
+.post__content {
+    margin-left: 15vw; 
+    margin-right: 15vw; 
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.post__content span{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.fin-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.liens-partage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+    width: 65%;
+
+}
+
+.liens-partage img{
+    width: 50px;
+    height: 50px;
+    color:#F8F6E9;
+    background-color: #807f7c;
+}
+
+.post-navigation a{
+    text-decoration: none;
+    color: #282728;
+    font-size:3vh;
+    font-weight: 900;
+}
+
+.post-navigation a:hover{
+    color: #59abbe; 
+}
+
+.post-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*commentaires*/
+
+.commentaire {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.comment-respond a{
+    text-align: center;
+   }
+
+   .comment-respond .form-submit{
+    margin-left: 3%;
+}
+
+.commentaire h3{
+    color: #59abbe; 
+    font-weight: 900;
+    font-size: 18vh;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.commentaire textarea{
+    width: 50vw;
+    height: 35vh;
+}
+
+.commentaire input,
+.commentaire textarea
+{
+    -webkit-appearance: none;
+    appearance: none;
+    color: #59abbe; 
+    background-color: #282728; 
+    border: 2px solid #59abbe; 
+    border-radius: 30px; 
+    padding: 2%;
+}
+
+.fields input{
+    padding: 3vh;
+    width: 17vw;
+}
+.container-comments{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.fields{
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ input::placeholder,
+textarea::placeholder {
+    color: #59abbe; 
+    padding-left: 2%; 
+}
+
+
+.comment-notes{
+   color: #f2f2f2;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 1.2rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.comment-form-cookies-consent,
+ .logged-in-as{
+    color: #f2f2f2;
+    margin-top: 3vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.comment-form-cookies-consent input{
+        border-radius: inherit;
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        margin-right: 1vw;
+}
+.comments-full{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-submit{
+   display: flex;
+   justify-content: end;
+}
+
+#submit{
+    font-weight: 900;
+}
+
+    /*newsletter*/
+
+.newsletter-form {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.newsletter-form p{ 
+    color: #59abbe !important;
+    font-weight: 900;
+    font-size: 20vh;
+    padding: 0;
+    margin: 0;
+}
+
+.chips{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+.chips input{
+    -webkit-appearance: none;
+    appearance: none;
+    color: #59abbe; 
+    background-color: #282728; 
+    border: 2px solid #59abbe; 
+    border-radius: 30px; 
+    padding: 5%;
+    margin-left: 3vh;
+}
+
+.chips-input{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chips-input :first-child{
+   width: 30vw;
+}
+
+    /*cards acceuil*/
+
+.post-cards{
+ display: flex;
+ justify-content: space-between;
+    align-items: center;
+}
+
+.post-card{
+    width: 20vw;
+    color: #f2f2f2;
+}
+
+.post-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-card h2 a{
+text-decoration: none;
+color: #59abbe; 
+font-weight: 900;
+}
+
+.post-card  .author{
+ text-align: end;
+}
+
+/*about*/
+
+.about-titre{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    color: #f2f2f2;
+}
+
+.about-titre h1{
+  font-size: 25vh;
+  font-weight: 900;
+}
+
+.about-titre h2{
+    font-size: 10vh;
+    font-weight: 900;
+    text-align: end;
+  }
+
+.about-content{
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    margin-bottom: 10vh;
+}
+
+.about img{
+    width: 70vw;
+    height: auto;
+}
+
+.about h4{
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/*contact*/
+
+.contact-titre{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    color: #f2f2f2;
+}
+
+.contact-titre h1{
+    font-size: 25vh;
+    font-weight: 900;
+    padding-bottom: 10vh;
+  }
+
+.contact-titre p{
+    font-size: 1.2rem;
+    text-align: end;
+ padding-left: 40%;
+}
+
+form .fake{
+    display:none;
+}
+
+p > span > input{
+    -webkit-appearance: none;
+    appearance: none;
+    color: #59abbe; 
+    background-color: #282728; 
+    border: 2px solid #59abbe;
+    border-radius: 30px;
+    padding: 5%;
+}
+ 
+p > span > textarea{
+    -webkit-appearance: none;
+    appearance: none;
+    color: #59abbe; 
+    background-color: #282728; 
+    width: 70vw;
+    border-radius: 30px;
+}
+
+.ligne1{
+    width: 100%;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+    padding-right: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.wpcf7-not-valid-tip{
+    display: none;
+}
+
+#wpcf7-f88-o1 > form > div.ligne3 > div:nth-child(1) > p > span > span > span{
+    padding-top: 10vh;
+}
+
+.fakeForm{
+    display: none;
+}
+
+.ligne1 input{
+ width: 17vw;
+}
+
+.ligne3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.consentement{
+    margin-top: 5vh;
+    margin-right: 5vh;
+}
+.consentement input{
+ margin-right: 0.8vw;
+    border: solid 2px #59abbe;
+
+}
+
+
+/*festival*/
+
+
+.festival img{
+    border-radius: 30px;
+}
+
+.festival h5, .festival h2, .festival h4{
+    color: #7A7A7A;
+}
+
+.festival h2{
+    font-weight: 900;
+    font-size: 7vh;
+}
+
+.festival h4{
+    font-size: 4vh;
+    font-weight: 300;
+}
+
+.festival p{
+    color: #f2f2f2;
+}
+
+.festival h6{
+    margin-top: 2vh;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.la-selection-container{
+    color: #7A7A7A;
+    display: flex;
+    justify-content: end;
+}
+
+.la-selection-titres{
+    width: 50%;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.la-selection-titres h4 {
+    font-weight: 900;
+    font-size: 7vh;
+    -webkit-text-stroke: 1px #7A7A7A;
+    color: transparent; 
+    -webkit-text-fill-color:#282728; 
+}
+
+#les-salles-last-titre,
+#les-salles-last-jour{
+    border-bottom: none !important;
+}
+
+.la-selection-titres a {
+text-decoration: none;
+}
+
+.la-selection-jour{
+    padding-right: 4vw;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.la-selection-jour p{
+   font-weight: 900;
+}
+
+.festival-reservation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.festival-reservation h2, 
+.festival-reservation p, 
+.festival-reservation th, 
+.festival-reservation td{
+    color: #59abbe;
+    text-align: center !important;
+}
+
+.festival-reservation-ville h2{
+    font-size: 4vh;
+}
+
+.festival-reservation th, 
+.festival-reservation td
+{
+    font-weight: 900;
+   font-size: 1.5vh;
+}
+
+.festival-reservation th{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.festival-reservation span{
+text-align: left;
+ font-size: 0.9vh;
+ font-weight: 400;
+}
+
+#ab{
+    border-left: solid;
+    border-right: solid;
+}
+
+.wp-block-separator{
+    color: #59abbe;
+}
+
+.wp-block-button__link{
+    color: #59abbe;
+    border: solid;
+    border-width: 1px;
+    border-color:#59abbe;
+    background-color: #282728; 
+}
+
+#enter-price{
+    color: #59abbe;
+    margin-bottom: 10vh;
+}
+
+.lesSalles{
+    margin-bottom: 17vw; 
+    margin-top: 17vw; 
+}
+
+.salle-cinema{
+    border-top: solid; 
+    border-bottom: solid;
+    border-color: #59abbe;
+    padding-top: 7vh;
+    padding-bottom: 17vh;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+.salle-titre {
+    margin-right: 10vw;
+}
+
+.salle-titre h2{
+    font-weight: 900;
+    color: #f2f2f2;
+    font-size: 7vh;
+}
+
+.salle-titre p{
+    font-weight: 900;
+    color: #f2f2f2;
+}
+
+.salle-description p{
+    color: #f2f2f2;
+    text-transform: uppercase
+
+}
+
+.salle-description{
+    margin-right: 3vw;
+}
+
+.salle-cinema img{
+    width: 17vw;
+    height: auto;
+}
+
+.le-mag table a{
+    text-decoration: none;
+    color: #59abbe;
+    font-weight: 900;
+    font-size: 3vh;
+}
+
+.le-mag > div.post-cards > div > ul{
+    list-style: none;
+}
+.le-mag > div.post-cards > div > ul > li > a{
+    text-decoration: none;
+    color:#7A7A7A;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.author{
+    color:#7A7A7A;
+    font-style: italic;
+}
+
+.le-mag table p{
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+.le-mag table p{
+    font-weight: 600;
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+.le-mag table th{
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+.table-mag-title{
+ width: 30vw;
+ display: flex;
+ padding-right: 5vw;
+}
+
+.le-mag table tr{
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-color: #59abbe;
+}
+
+.fleche{
+    color: #f2f2f2 !important;
+    font-size: 3vh;
+    padding-left: 10vw;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #myBtn{
+        display: block;
+    }
+
+    .navigation-fullscreen{
+        display: none;
+    }
+    .modal-content a,
+    .modal-content span{
+        color: #282728;
+    }
+
+    .modal-content{
+        color: #282728;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 10vh;
+    }
+    footer{
+        font-weight: 500;
+        font-size: 1.5vh;
+        margin: 2vh;
+    }
+
+    main{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .menu-liens ul{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .titre-page-principale{
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vh;
+        text-align: start;
+    }
+
+    .titre-page-principale h1{
+        white-space: wrap;
+        font-size: 8vh;
+    }
+
+    .titre-page-principale h2{
+        font-size: 3vh;
+    }
+
+    .droit{
+        text-align: start;
+    }
+
+    .lien-eni-where{
+        margin-top: 3vh;
+    }
+
+    .lien-eni-where a{
+        font-size: 2vh;
+    }
+
+    .presentation{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 2vh;
+    }
+
+    section{
+        margin-top: 5vh;
+    }
+
+    .les-salles p{
+        font-size: 5vh;
+    }
+
+    .les-salles h2{
+        font-size: 2vh;
+    }
+
+    /*articles*/
+    .article{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .post{
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .attachment-post-thumbnail{
+        width: 80vw;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .post h1{
+        font-size: 5vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .entete-article{
+        flex-direction: column;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 3vh;
+    }
+
+    .entete-meta{
+        width: 50vw;
+        border-top: none;
+    }
+
+    .post__content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 1rem;
+    }
+
+
+    .liens-partage{
+        margin-bottom: 5vh;
+        width: 100%;
+
+    }
+
+    .liens-partage img{
+        width: 30px;
+        height: 30px;
+    }
+    .commentaire {
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+    }
+    .comment-respond .form-submit{
+        margin-left: 0%;
+    }
+    .commentaire h3{
+        font-size: 5vh;
+        text-align: center;
+        white-space: wrap;
+    }
+
+    .commentaire textarea{
+        width: 90vw;
+    }
+
+    .fields input{
+        padding: 2vh;
+        width: 60vw;
+    }
+    .container-comments{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .fields{
+        margin-left: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: #59abbe;
+        padding-left: 0%;
+    }
+
+
+    .comment-notes{
+        font-size: 1rem;
+    }
+
+    .comment-form-cookies-consent,
+    .logged-in-as{
+        font-size: 1rem;
+    }
+
+    /*newsletter*/
+
+    .newsletter-form {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .newsletter-form p{
+        font-size: 7vh;
+    }
+
+    .chips-input :first-child{
+        width: 20vw;
+    }
+
+    /*cards acceuil*/
+
+    .post-cards{
+        flex-direction: column;
+        align-items: start;
+    }
+    .post-card{
+        width: 95vw;
+    }
+    /*about*/
+
+    .about-titre{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .about-titre h1{
+        font-size: 7vh;
+    }
+
+    .about-titre h2{
+        font-size: 4vh;
+    }
+
+    .about-content{
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .about{
+        text-align: start;
+        margin-bottom: 5vh;
+    }
+
+    /*contact*/
+
+    .contact-titre{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .contact-titre h1{
+        font-size: 7vh;
+        padding-bottom: 5vh;
+    }
+
+    .contact-titre p{
+        font-size: 1rem;
+        text-align: end;
+    }
+
+    p > span > textarea{
+        width: 100vw;
+    }
+
+    .ligne1{
+        padding-right: 2vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #wpcf7-f88-o1 > form > div.ligne3 > div:nth-child(1) > p > span > span > span{
+        padding-top: 10vh;
+    }
+
+    .ligne3{
+        justify-content: start;
+        align-items: center;
+    }
+
+    .consentement{
+        margin-right: 1vh;
+    }
+
+
+    /*festival*/
+    .festival h2{
+        font-size: 6vh;
+    }
+
+
+    .lesSalles{
+        margin-bottom: 7vw;
+        margin-top: 7vw;
+    }
+
+    .salle-cinema{
+        padding-top: 7vh;
+        padding-bottom: 10vh;
+        flex-direction: column;
+    }
+
+    .salle-cinema img{
+        width: 80vw;
+        height: auto;
+        margin-top: 5vh;
+    }
+
+    .le-mag table a{
+        font-size: 2vh;
+    }
+
+    .le-mag table p{
+
+        font-size: 0.8rem;
+    }
+
+    .fleche{
+       display: none;
+    }
+
+}
